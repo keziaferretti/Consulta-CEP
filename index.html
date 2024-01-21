@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Consulta CEP</h1>
+    <p>Para consultar Digite o CEP</p>
+    <form>
+        <input type="text" name="cep" id="cep" placeholder="Digite o CEP">
+        <button type="button" id="buscarBtn">Buscar</button>
+    </form>
+
+    <div id="resultado" style="display: none;">
+        <p>Retorno da consulta do CEP: <span id="cepDigitado"></span></p>
+        <p>Logradouro: <span id="logradouro"></span></p>
+        <p>Bairro: <span id="bairro"></span></p>
+        <p>Cidade: <span id="cidade"></span></p>
+        <p>UF: <span id="uf"></span></p>
+        <p>DDD: <span id="ddd"></span></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
